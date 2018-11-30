@@ -16,14 +16,14 @@ Auto-Scaling Cloud Resources using LSTM and Reinforcement Learning to Improve Qo
  Experimental result
  -------
 The two real-world workload patterns are shown：
-![](https://github.com/Michael2397/Auto-Scaling/blob/master/results/UserRequest.png)  
+![image](https://github.com/Michael2397/Auto-Scaling/blob/master/results/UserRequest.png)  
 
 The CPU utilizations of the four approaches for NASA workloads at each interval. From the results, we observe that the LSTM approach has better results than other three approaches, but when the requests suddenly appear peak, there will be a shake, and the CPU utilizations even reach 120%. Although LSTM can get more accurate prediction results, it does not use empirical data in resource scheduling. The Linear approach also has the same  problem. While LSTMQL approach can get the stable results,  this is because RL decides whether the system needs to schedule VMs, avoiding unnecessary resource scheduling.
-![](https://github.com/Michael2397/Auto-Scaling/blob/master/results/CpuUtilization.png)  
+![image](https://github.com/Michael2397/Auto-Scaling/blob/master/results/CpuUtilization.png)  
 
 The delay time at different intervals. In addition to the beginning of the result, the delay time of LSTMQL approach is almost zero, while other three approaches have varying degrees of delay
-![](https://github.com/Michael2397/Auto-Scaling/blob/master/results/TotalDelayTime.png)  
+![image](https://github.com/Michael2397/Auto-Scaling/blob/master/results/TotalDelayTime.png)  
 
 We can conclude that LSTMQL approach has fewer scheduling times, besides RL, the algorithm in execution phase also plays an important role in VM schedules. When requests suddenly appear peak, LSTMQL approach can immediately schedule the appropriate virtual machine in execution phase.
-![](https://github.com/Michael2397/Auto-Scaling/blob/master/results/TheNumberOfVMS.png)  
+![image](https://github.com/Michael2397/Auto-Scaling/blob/master/results/TheNumberOfVMS.png)  
 
