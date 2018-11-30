@@ -1,4 +1,5 @@
 This repository contains data and code for building and evaluating resource scheduling simulation, developed as part of:
+
 Auto-Scaling Cloud Resources using LSTM and Reinforcement Learning to Improve Qos and Reduce Cost. Zhongjiang, Duansaisai, Liqing
 ------- 
 (We regret to say that the size of Auto-Scaling is more than 100MB, exceeding github's maximum limitation. More code you can find from https://pan.baidu.com/s/1ezo7mP2oXHFjINcVbbLrNg )
