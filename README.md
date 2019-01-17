@@ -1,4 +1,4 @@
-Auto-Scaling Cloud Resources using LSTM and Reinforcement Learning to Guarantee Service-Level Agreements and Reduce Resource Costs. Zhongjiang, Duansaisai, Liqing
+Auto-Scaling Cloud Resources using LSTM and Reinforcement Learning to Guarantee Service-Level Agreements and Reduce Resource Costs.  Duansaisai, Liqing
 ====  
 (We regret to say that the size of Auto-Scaling is more than 100MB, exceeding github's maximum limitation. More code you can find from https://pan.baidu.com/s/1ezo7mP2oXHFjINcVbbLrNg )
  
